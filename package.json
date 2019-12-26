@@ -23,7 +23,6 @@
     "@angular/platform-browser-dynamic": "~8.2.13",
     "@angular/router": "~8.2.13",
     "ngx-moveable": "^0.9.1",
-    "preact": "^10.0.0",
     "rxjs": "~6.4.0",
     "scenejs": "^1.1.5",
     "tslib": "^1.10.0",
