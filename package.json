@@ -4,7 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "start:aot": "ng serve --aot",
+    "start:prod": "ng serve --aot --prod",
+    "build": "ng build ngx-moveable",
+    "build:app": "ng build --aot --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -19,7 +22,10 @@
     "@angular/platform-browser": "~8.2.13",
     "@angular/platform-browser-dynamic": "~8.2.13",
     "@angular/router": "~8.2.13",
+    "ngx-moveable": "^0.9.1",
+    "preact": "^10.0.0",
     "rxjs": "~6.4.0",
+    "scenejs": "^1.1.5",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },
